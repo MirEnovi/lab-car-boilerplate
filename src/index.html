@@ -17,48 +17,52 @@
 
 <body>
   <div class="contenido-fluid">
-    <header class="margin-header">
+    <header class="margin-header fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- button menu -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <img class="d-flex justify-content-start" src="assets/images/logoForma.png" alt="Lab-Car">
-        <!-- menu dropdown-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                MODAL
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" id="sedes">1</a>
-              </div>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                BOTON2
-              </a>
-
-              <div class="dropdown-menu">
-                <a class="dropdown-item" id="estudiantes">2</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler justify-content-start" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="d-flex justify-content-end" src="assets/images/logoForma.png" alt="Lab-Car">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Viaja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conduce</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicia sesión</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </header>
 
     <!-- section descarga el app-->
     <section class="row contenido-fluid d-flex align-items-center" id="background">
       <div class="offset-3 col-9 div-a">
         <h3 class="offset-1 align-items-center">
-          Comienza a viajar<br>con
+          Comienza a viajar
+          <br>con
           <span class="lavcar-f">Lab&#60ar</span>
         </h3>
-        <button type="button" class="offset-1 btn btn-light btn-lg">Descarga el app</button>        
+        <button type="button" class="offset-1 btn btn-light btn-lg">Descarga el app</button>
+      </div>
+    </section>
+
+    <!-- section la nueva app-->
+    <section class="row contenido-fluid d-flex align-items-center background2">
+      <div class="margin-white">
+        <p class = "lavcar-f col-12 d-flex justify-content-center">
+          La nueva app
+        </p>
+        <img src="assets/images/iPhone6Plus.png" alt="" srcset="iPhone6Plus.png 2x">
       </div>
     </section>
 
@@ -72,7 +76,7 @@
     </section> -->
 
 
-    <footer class="container-fluid pie-pagina color-footer">
+    <footer class="container-fluid color-footer">
       <img src="assets/images/logoBlanco.png" alt="">
       <p> © Copyright 2018. All Rights Reserved. LABORATORIA </p>
     </footer>
