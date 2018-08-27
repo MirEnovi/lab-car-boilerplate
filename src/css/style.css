@@ -6,20 +6,31 @@
   background-color: #2B2B2B; }
 
 #background {
-  background-image: url("../assets/images/taxi.jpg");
-  height: 100vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat; }
+  background-image: url("../assets/images/taxi.jpg"); }
 
 .div-a {
   padding-top: 50px;
   background: #F7B617;
-  color: aliceblue;
+  color: #ffffff;
   height: 40%; }
 
 .lavcar-f {
-  color: antiquewhite;
+  color: #ffffff;
   font-size: 20px; }
 
 .margin-header {
   margin-bottom: 75px; }
+
+.background2, #background {
+  background-color: #F7B617;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.margin-white {
+  height: 80vh;
+  width: 100%;
+  margin: 2em;
+  margin-top: 7em;
+  margin-bottom: 10em;
+  border: 1px solid #ffffff; }
